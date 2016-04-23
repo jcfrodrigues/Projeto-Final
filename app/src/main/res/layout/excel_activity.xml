@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EXCEL AVANÇADO"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aprenda a usar funções mais específicas no excel, bem como aprender mais ferramentas e a criar sistemas simples para ajudar no dia a dia, tanto profissionalmente quanto pessoal "
+        android:textAlignment="center"
+        android:layout_margin="20dp" />/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Curso voltado para todos aqueles que desejam aprender mais sobre essa magnifica ferramenta."
+        android:textAlignment="center"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tenho interesse" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ea"
+        android:scaleType="centerCrop" />
+
+
+</LinearLayout>

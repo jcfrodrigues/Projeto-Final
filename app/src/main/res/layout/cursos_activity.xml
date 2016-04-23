@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/informatica">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clique no curso para saber mais!!"
+        android:layout_margin="20dp"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textSize="17sp" />
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/excel"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Excel Avançado"
+                android:background="#80015488"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:onClick="onClick" />
+
+            <Button
+                android:id="@+id/autocad"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Autocad"
+                android:layout_marginTop="75dp"
+                android:background="#80015488"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:onClick="onClick" />
+
+            <Button
+                android:id="@+id/vba"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Excel VBA"
+                android:layout_marginTop="150dp"
+                android:background="#80015488"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:onClick="onClick" />
+
+            <Button
+                android:id="@+id/infobasica"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Informática Básica"
+                android:layout_marginTop="225dp"
+                android:background="#80015488"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:onClick="onClick" />
+
+            <Button
+                android:id="@+id/project"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="MS Project"
+                android:layout_marginTop="300dp"
+                android:background="#80015488"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:onClick="onClick" />
+
+            <Button
+                android:id="@+id/photoshop"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Photoshop"
+                android:layout_marginTop="375dp"
+                android:background="#80015488"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:onClick="onClick" />
+
+            <Button
+                android:id="@+id/java"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Programação Java"
+                android:layout_marginTop="450dp"
+                android:background="#80015488"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:onClick="onClick" />
+
+            <Button
+                android:id="@+id/manutencao"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Montagem e Manutenção"
+                android:layout_marginTop="525dp"
+                android:background="#80015488"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:onClick="onClick" />
+
+            <Button
+                android:id="@+id/redes"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Redes"
+                android:layout_marginTop="600dp"
+                android:background="#80015488"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:onClick="onClick" />
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7941F"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/voce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="80dp"
+            android:clickable="true"
+            android:drawableTop="@drawable/simbolo"
+            android:onClick="onClick"
+            android:text="Você no Senac"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/cursos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/voce"
+            android:layout_marginRight="50dp"
+            android:clickable="true"
+            android:drawableTop="@drawable/cursos"
+            android:onClick="onClick"
+            android:text="Cursos"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/noticia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/voce"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="120dp"
+            android:clickable="true"
+            android:drawableTop="@drawable/noticia"
+            android:onClick="onClick"
+            android:text="Notícias Senac"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/contatos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/noticia"
+            android:layout_alignRight="@id/cursos"
+            android:clickable="true"
+            android:drawableTop="@drawable/contatos"
+            android:onClick="onClick"
+            android:text="Contatos"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textAlignment="center" />
+
+    </RelativeLayout>
+
+</LinearLayout>
